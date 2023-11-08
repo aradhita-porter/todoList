@@ -1,6 +1,5 @@
 package com.example.api.tasks
 
-import com.example.domain.lists.usecases.DeleteListService
 import com.example.domain.tasks.usecases.DeleteTaskService
 import io.ktor.http.*
 import io.ktor.server.application.*

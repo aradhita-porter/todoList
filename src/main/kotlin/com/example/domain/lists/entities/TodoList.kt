@@ -1,9 +1,7 @@
 package com.example.domain.lists.entities
 
 import com.example.domain.tasks.entities.Task
-import kotlinx.serialization.Contextual
 import kotlinx.serialization.Serializable
-import java.time.Instant
 
 @Serializable
 data class TodoList(

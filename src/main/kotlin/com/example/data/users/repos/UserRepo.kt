@@ -2,7 +2,6 @@ package com.example.data.users.repos
 
 import com.example.data.users.tables.UserQueries
 import com.example.data.users.tables.UsersRecordMapper
-import com.example.data.users.userRecord.UserRecord
 import com.example.domain.users.entities.UserResponse
 
 import com.example.domain.users.requests.CreateUserRequest

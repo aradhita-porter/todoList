@@ -1,11 +1,9 @@
 package com.example.data.tasks.tables
 
-import com.example.data.lists.tables.ListTable
 import com.example.data.tasks.records.TaskRecord
 import com.example.data.tasks.records.TaskRecordData
 import com.example.domain.tasks.requests.UpdateTaskRequest
 import org.jetbrains.exposed.sql.*
-import org.jetbrains.exposed.sql.SqlExpressionBuilder.eq
 import org.jetbrains.exposed.sql.transactions.transaction
 import java.time.Instant
 import javax.inject.Inject
@@ -40,7 +38,7 @@ constructor(
     fun update(taskId: Int, request: UpdateTaskRequest) {
         transaction {
             TaskTable.update(where = { TaskTable.id eq taskId }) {
-                it[title] = request.title
+                it[status] = request.status.toString()
                 it[updated_at] = Instant.now()
             }
         }

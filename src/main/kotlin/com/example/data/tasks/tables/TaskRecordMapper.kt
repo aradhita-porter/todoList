@@ -39,8 +39,6 @@ constructor(){
         listId = record.data.listId,
         title = record.data.title,
         description = record.data.description,
-        status = record.data.status,
-        createdAt = record.createdAt,
-        updatedAt = record.updatedAt
+        status = record.data.status
     )
 }

@@ -1,7 +1,5 @@
 package com.example.api.tasks
 
-import com.example.domain.lists.requests.CreateListRequest
-import com.example.domain.lists.usecases.CreateListService
 import com.example.domain.tasks.requests.CreateTaskRequest
 import com.example.domain.tasks.usecases.CreateTaskService
 import io.ktor.http.*

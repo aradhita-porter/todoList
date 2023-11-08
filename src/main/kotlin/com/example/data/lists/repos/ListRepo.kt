@@ -6,7 +6,6 @@ import com.example.domain.lists.requests.CreateListRequest
 import javax.inject.Inject
 import com.example.domain.lists.entities.TodoList
 import com.example.domain.lists.requests.UpdateListRequest
-import com.example.domain.users.entities.UserResponse
 
 class ListRepo
 @Inject

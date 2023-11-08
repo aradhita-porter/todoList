@@ -2,6 +2,7 @@ package com.example
 
 import com.example.di.DaggerHttpComponent
 import com.example.routes.list.listRoutes
+import com.example.routes.tasks.taskRoutes
 import com.example.routes.users.usersRoutes
 import io.ktor.http.*
 import io.ktor.serialization.kotlinx.json.*
@@ -40,6 +41,9 @@ fun main() {
             }
             route("/list") {
                 listRoutes(httpComponent)
+            }
+            route("/task") {
+                taskRoutes(httpComponent)
             }
 //            route("/list") { listRoutes() }
 //            route("/task") { taskRoutes() }

@@ -2,12 +2,8 @@ package com.example.data.lists.tables
 
 import com.example.data.lists.listRecord.ListRecord
 import com.example.data.lists.listRecord.ListRecordData
-import com.example.data.users.tables.UserTable
-import com.example.domain.lists.entities.TodoList
 import com.example.domain.lists.requests.UpdateListRequest
-import org.jetbrains.exposed.exceptions.ExposedSQLException
 import org.jetbrains.exposed.sql.*
-import org.jetbrains.exposed.sql.SqlExpressionBuilder.eq
 import org.jetbrains.exposed.sql.transactions.transaction
 import java.time.Instant
 import javax.inject.Inject

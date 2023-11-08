@@ -2,7 +2,6 @@ package com.example.data.tasks.repos
 
 import com.example.data.tasks.tables.TaskQueries
 import com.example.data.tasks.tables.TaskRecordMapper
-import com.example.domain.lists.entities.TodoList
 import javax.inject.Inject
 import com.example.domain.tasks.entities.Task
 import com.example.domain.tasks.requests.CreateTaskRequest
